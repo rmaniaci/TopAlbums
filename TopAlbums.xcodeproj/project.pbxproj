@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32389D5321B327B900AD0CAF /* AlbumImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32389D5221B327B900AD0CAF /* AlbumImageView.swift */; };
 		323E839B21B19E0500809EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E839A21B19E0500809EA9 /* AppDelegate.swift */; };
-		323E839D21B19E0500809EA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E839C21B19E0500809EA9 /* ViewController.swift */; };
-		323E83A021B19E0500809EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323E839E21B19E0500809EA9 /* Main.storyboard */; };
 		323E83A221B19E0600809EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323E83A121B19E0600809EA9 /* Assets.xcassets */; };
-		323E83A521B19E0600809EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323E83A321B19E0600809EA9 /* LaunchScreen.storyboard */; };
 		323E83B021B19E0600809EA9 /* TopAlbumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83AF21B19E0600809EA9 /* TopAlbumsTests.swift */; };
 		323E83BB21B19E0600809EA9 /* TopAlbumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83BA21B19E0600809EA9 /* TopAlbumsUITests.swift */; };
+		323E83C921B19FE300809EA9 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 323E83C821B19FE300809EA9 /* LICENSE.md */; };
+		323E83CB21B19FED00809EA9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 323E83CA21B19FED00809EA9 /* README.md */; };
+		323E83D621B1ABB300809EA9 /* TopAlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83D521B1ABB300809EA9 /* TopAlbumsViewController.swift */; };
+		323E83D821B1AC6500809EA9 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83D721B1AC6500809EA9 /* AlbumDetailViewController.swift */; };
+		323E83DA21B1AC8400809EA9 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83D921B1AC8400809EA9 /* Album.swift */; };
+		323E83E021B1AE0500809EA9 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83DF21B1AE0500809EA9 /* AlbumCell.swift */; };
+		323E83E221B1AE2A00809EA9 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83E121B1AE2A00809EA9 /* ErrorAlert.swift */; };
+		323E83E421B1AEC000809EA9 /* AlbumDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83E321B1AEC000809EA9 /* AlbumDelegate.swift */; };
+		323E83E621B1B20000809EA9 /* AlbumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83E521B1B20000809EA9 /* AlbumService.swift */; };
+		323E83E821B1B21B00809EA9 /* AlbumServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83E721B1B21B00809EA9 /* AlbumServiceImpl.swift */; };
+		323E83EC21B1D5B300809EA9 /* ITunesRSSFeedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83EB21B1D5B300809EA9 /* ITunesRSSFeedDelegate.swift */; };
+		323E83F221B1D5E500809EA9 /* ITunesRSSFeedHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E83F121B1D5E500809EA9 /* ITunesRSSFeedHandler.swift */; };
+		32A436AD21B22099003C7ABE /* AlbumConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A436AC21B22099003C7ABE /* AlbumConstants.swift */; };
+		32A436AF21B220A3003C7ABE /* AlbumError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A436AE21B220A3003C7ABE /* AlbumError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32389D5221B327B900AD0CAF /* AlbumImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImageView.swift; sourceTree = "<group>"; };
 		323E839721B19E0500809EA9 /* TopAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323E839A21B19E0500809EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		323E839C21B19E0500809EA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		323E839F21B19E0500809EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		323E83A121B19E0600809EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		323E83A421B19E0600809EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		323E83A621B19E0600809EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323E83AB21B19E0600809EA9 /* TopAlbumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopAlbumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323E83AF21B19E0600809EA9 /* TopAlbumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsTests.swift; sourceTree = "<group>"; };
@@ -47,6 +57,20 @@
 		323E83B621B19E0600809EA9 /* TopAlbumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopAlbumsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323E83BA21B19E0600809EA9 /* TopAlbumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsUITests.swift; sourceTree = "<group>"; };
 		323E83BC21B19E0600809EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323E83C821B19FE300809EA9 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		323E83CA21B19FED00809EA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		323E83D521B1ABB300809EA9 /* TopAlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsViewController.swift; sourceTree = "<group>"; };
+		323E83D721B1AC6500809EA9 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		323E83D921B1AC8400809EA9 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		323E83DF21B1AE0500809EA9 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		323E83E121B1AE2A00809EA9 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		323E83E321B1AEC000809EA9 /* AlbumDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDelegate.swift; sourceTree = "<group>"; };
+		323E83E521B1B20000809EA9 /* AlbumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumService.swift; sourceTree = "<group>"; };
+		323E83E721B1B21B00809EA9 /* AlbumServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumServiceImpl.swift; sourceTree = "<group>"; };
+		323E83EB21B1D5B300809EA9 /* ITunesRSSFeedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesRSSFeedDelegate.swift; sourceTree = "<group>"; };
+		323E83F121B1D5E500809EA9 /* ITunesRSSFeedHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesRSSFeedHandler.swift; sourceTree = "<group>"; };
+		32A436AC21B22099003C7ABE /* AlbumConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumConstants.swift; sourceTree = "<group>"; };
+		32A436AE21B220A3003C7ABE /* AlbumError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,8 @@
 		323E838E21B19E0500809EA9 = {
 			isa = PBXGroup;
 			children = (
+				323E83C821B19FE300809EA9 /* LICENSE.md */,
+				323E83CA21B19FED00809EA9 /* README.md */,
 				323E839921B19E0500809EA9 /* TopAlbums */,
 				323E83AE21B19E0600809EA9 /* TopAlbumsTests */,
 				323E83B921B19E0600809EA9 /* TopAlbumsUITests */,
@@ -97,12 +123,13 @@
 		323E839921B19E0500809EA9 /* TopAlbums */ = {
 			isa = PBXGroup;
 			children = (
-				323E839A21B19E0500809EA9 /* AppDelegate.swift */,
-				323E839C21B19E0500809EA9 /* ViewController.swift */,
-				323E839E21B19E0500809EA9 /* Main.storyboard */,
-				323E83A121B19E0600809EA9 /* Assets.xcassets */,
-				323E83A321B19E0600809EA9 /* LaunchScreen.storyboard */,
-				323E83A621B19E0600809EA9 /* Info.plist */,
+				323E83D221B1A04300809EA9 /* Controllers */,
+				323E83D121B1A03E00809EA9 /* Delegate */,
+				323E83D021B1A03800809EA9 /* Model */,
+				323E83CF21B1A03200809EA9 /* Service */,
+				323E83CE21B1A02C00809EA9 /* ServiceImpl */,
+				323E83CD21B1A02600809EA9 /* Util */,
+				323E83CC21B1A00100809EA9 /* Resources */,
 			);
 			path = TopAlbums;
 			sourceTree = "<group>";
@@ -123,6 +150,71 @@
 				323E83BC21B19E0600809EA9 /* Info.plist */,
 			);
 			path = TopAlbumsUITests;
+			sourceTree = "<group>";
+		};
+		323E83CC21B1A00100809EA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				323E839A21B19E0500809EA9 /* AppDelegate.swift */,
+				323E83DF21B1AE0500809EA9 /* AlbumCell.swift */,
+				32389D5221B327B900AD0CAF /* AlbumImageView.swift */,
+				323E83E121B1AE2A00809EA9 /* ErrorAlert.swift */,
+				323E83A121B19E0600809EA9 /* Assets.xcassets */,
+				323E83A621B19E0600809EA9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		323E83CD21B1A02600809EA9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				323E83EB21B1D5B300809EA9 /* ITunesRSSFeedDelegate.swift */,
+				323E83F121B1D5E500809EA9 /* ITunesRSSFeedHandler.swift */,
+				32A436AC21B22099003C7ABE /* AlbumConstants.swift */,
+				32A436AE21B220A3003C7ABE /* AlbumError.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		323E83CE21B1A02C00809EA9 /* ServiceImpl */ = {
+			isa = PBXGroup;
+			children = (
+				323E83E721B1B21B00809EA9 /* AlbumServiceImpl.swift */,
+			);
+			path = ServiceImpl;
+			sourceTree = "<group>";
+		};
+		323E83CF21B1A03200809EA9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				323E83E521B1B20000809EA9 /* AlbumService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		323E83D021B1A03800809EA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				323E83D921B1AC8400809EA9 /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		323E83D121B1A03E00809EA9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				323E83E321B1AEC000809EA9 /* AlbumDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		323E83D221B1A04300809EA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				323E83D521B1ABB300809EA9 /* TopAlbumsViewController.swift */,
+				323E83D721B1AC6500809EA9 /* AlbumDetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +321,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323E83A521B19E0600809EA9 /* LaunchScreen.storyboard in Resources */,
+				323E83CB21B19FED00809EA9 /* README.md in Resources */,
+				323E83C921B19FE300809EA9 /* LICENSE.md in Resources */,
 				323E83A221B19E0600809EA9 /* Assets.xcassets in Resources */,
-				323E83A021B19E0500809EA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +348,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323E839D21B19E0500809EA9 /* ViewController.swift in Sources */,
+				32A436AF21B220A3003C7ABE /* AlbumError.swift in Sources */,
+				323E83D621B1ABB300809EA9 /* TopAlbumsViewController.swift in Sources */,
+				32A436AD21B22099003C7ABE /* AlbumConstants.swift in Sources */,
+				323E83E821B1B21B00809EA9 /* AlbumServiceImpl.swift in Sources */,
+				32389D5321B327B900AD0CAF /* AlbumImageView.swift in Sources */,
 				323E839B21B19E0500809EA9 /* AppDelegate.swift in Sources */,
+				323E83E421B1AEC000809EA9 /* AlbumDelegate.swift in Sources */,
+				323E83E621B1B20000809EA9 /* AlbumService.swift in Sources */,
+				323E83EC21B1D5B300809EA9 /* ITunesRSSFeedDelegate.swift in Sources */,
+				323E83E021B1AE0500809EA9 /* AlbumCell.swift in Sources */,
+				323E83F221B1D5E500809EA9 /* ITunesRSSFeedHandler.swift in Sources */,
+				323E83D821B1AC6500809EA9 /* AlbumDetailViewController.swift in Sources */,
+				323E83E221B1AE2A00809EA9 /* ErrorAlert.swift in Sources */,
+				323E83DA21B1AC8400809EA9 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +395,6 @@
 			targetProxy = 323E83B721B19E0600809EA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		323E839E21B19E0500809EA9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				323E839F21B19E0500809EA9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		323E83A321B19E0600809EA9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				323E83A421B19E0600809EA9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		323E83BD21B19E0600809EA9 /* Debug */ = {
@@ -432,9 +517,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97ASU33JJP;
-				INFOPLIST_FILE = TopAlbums/Info.plist;
+				INFOPLIST_FILE = TopAlbums/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rossmaniaci.TopAlbums;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,9 +536,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97ASU33JJP;
-				INFOPLIST_FILE = TopAlbums/Info.plist;
+				INFOPLIST_FILE = TopAlbums/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +547,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rossmaniaci.TopAlbums;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

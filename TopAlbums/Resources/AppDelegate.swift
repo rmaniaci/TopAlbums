@@ -10,12 +10,22 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        // Make the top albums view controller the root view controller and set up the navigation controller.
+        let topAlbumsViewController = TopAlbumsViewController()
+        let navigationController = UINavigationController(rootViewController: topAlbumsViewController)
+        navigationController.navigationBar.barTintColor = .orange
+        navigationController.navigationBar.isTranslucent = false
+        navigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.font : UIFont(name: "AvenirNext-Bold", size: 18)!, NSAttributedString.Key.foregroundColor : UIColor(red: 1, green: 1, blue: 1, alpha: 1)]
+        navigationController.navigationBar.tintColor = .white
+        window?.rootViewController = navigationController
+        
         return true
     }
 
@@ -40,7 +50,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
-
